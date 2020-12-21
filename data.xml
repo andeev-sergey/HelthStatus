@@ -1,0 +1,40 @@
+
+<!-- Mednote doctor_check base xml -->
+<doc-data>
+    <document-name>Справка о состоянии здоровья</document-name>
+    <document-prefix-result></document-prefix-result>
+    <document-number-result></document-number-result>
+    <document-date></document-date>
+    <document-date-short></document-date-short>
+    
+    <company1-name></company1-name>
+    <company1-company-form-short></company1-company-form-short>
+    <company1-company-form-full></company1-company-form-full>
+    <company1-ogrn></company1-ogrn>
+    <company1-ogrn></company1-ogrn>
+    <company1-inn></company1-inn>
+    <company1-kpp></company1-kpp>
+    <company1-company-form-full></company1-company-form-full>
+    <company1-company-form-short></company1-company-form-short>
+    <company1-phone></company1-phone>
+    <company1-email></company1-email>
+    <company1-site></company1-site>
+    <company1-logo></company1-logo>
+    
+    <division-address></division-address>
+    
+    <patient2-fio-full></patient2-fio-full>
+    <patient2-gender-full></patient2-gender-full>
+    <patient2-birthday-day></patient2-birthday-day>
+    <patient2-birthday-month></patient2-birthday-month>
+    <patient2-birthday-year></patient2-birthday-year>
+    <patient2-age></patient2-age>
+    <patient2-gender-number></patient2-gender-number>
+    <patient2-pid></patient2-pid>
+    
+    <doctor-specialization></doctor-specialization>
+    <doctor-fio-full></doctor-fio-full>
+    <doctor-stamp></doctor-stamp>
+    <doctor-signing></doctor-signing>
+    <comment-1>По результатам осмотра соматической патологии не выявлено.</comment-1>
+</doc-data>
