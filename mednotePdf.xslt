@@ -1,4 +1,3 @@
-
 <!-- MedNote PDF -->
 
 <fo:block-container xsl:use-attribute-sets="mednote-headline-body">
