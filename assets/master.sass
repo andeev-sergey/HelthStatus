@@ -2,10 +2,6 @@ $font: Arial, sans-serif
 $accentColor: green
 $maxContainerSize: 952px
 
-@mixin null-margin&padding()
-    margin: 0 !important
-    padding: 0 !important
-    @content
 
 *
     font-family: $font
@@ -34,17 +30,19 @@ $maxContainerSize: 952px
     bottom: 0
     cursor: pointer
     background: $accentColor
-    @include @include null-margin&padding()
-        border: none
-        overflow: hidden
-        border-radius: 0
-        z-index: 10
+    margin: 0 !important
+    padding: 0 !important
+    border: none
+    overflow: hidden
+    border-radius: 0
+    z-index: 10
 
 .html-std-base-container
     position: relative
     display: flex
     width: 100%
-    @include @include null-margin&padding()
+    margin: 0 !important
+    padding: 0 !important
 
 .medex-mednote-document-name
     font-family: $font

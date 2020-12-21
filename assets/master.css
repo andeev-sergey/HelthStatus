@@ -1,0 +1,92 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+.medex-mednote-body {
+  width: 1058px;
+}
+
+.medex-mednote-body p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.medex-mednote-body textarea {
+  font-family: Arial, sans-serif;
+  font-size: 14.2pt !important;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666 #ccc #ccc;
+  height: 29px;
+  width: 952px;
+}
+
+.medex-mednote-areatext-btn {
+  /* maybe "user-select: none" */
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 1000px;
+  bottom: 0;
+  cursor: pointer;
+  background: green;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none;
+  overflow: hidden;
+  border-radius: 0;
+  z-index: 10;
+}
+
+.html-std-base-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.medex-mednote-document-name {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 16pt 95px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.medex-mednote-document-name-editable {
+  position: relative;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+  text-align: center !important;
+  font-weight: bold;
+}
+
+.medex-mednote-comment-text {
+  font-size: 14px;
+  width: 952px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.medex-mednote-paragrap {
+  width: 100%;
+  margin-bottom: 14pt;
+}
+
+.medex-mednote-doctor_check-areatext {
+  resize: none;
+  width: 100%;
+}
+/*# sourceMappingURL=master.css.map */
