@@ -1,0 +1,83 @@
+$font: Arial, sans-serif
+$accentColor: green
+$maxContainerSize: 952px
+
+@mixin null-margin&padding()
+    margin: 0 !important
+    padding: 0 !important
+    @content
+
+*
+    font-family: $font
+
+.medex-mednote-body
+    width: 1058px
+    p
+        margin: 0
+        font-family: $font
+    textarea
+        font-family: $font
+        font-size: 14.2pt !important
+        text-align: left
+        border-style: solid
+        border-width: 1px
+        border-color: #666 #ccc #ccc
+        height: 29px
+        width: $maxContainerSize
+
+.medex-mednote-areatext-btn
+    /* maybe "user-select: none" */
+    position: absolute
+    height: 20px
+    width: 20px
+    left: 1000px
+    bottom: 0
+    cursor: pointer
+    background: $accentColor
+    @include @include null-margin&padding()
+        border: none
+        overflow: hidden
+        border-radius: 0
+        z-index: 10
+
+.html-std-base-container
+    position: relative
+    display: flex
+    width: 100%
+    @include @include null-margin&padding()
+
+.medex-mednote-document-name
+    font-family: $font
+    text-align: center
+    font-weight: bold
+    padding: 16pt 95px
+    white-space: pre-wrap
+    white-space: -moz-pre-wrap
+    white-space: -pre-wrap
+    white-space: -o-pre-wrap
+    word-wrap: break-word
+
+.medex-mednote-document-name-editable
+    position: relative
+    width: 100%
+    font-family: $font
+    font-size: 14pt
+    text-align: center !important
+    font-weight: bold
+
+.medex-mednote-comment-text
+    font-size: 14px
+    width: $maxContainerSize
+    white-space: pre-wrap
+    white-space: -moz-pre-wrap
+    white-space: -pre-wrap
+    white-space: -o-pre-wrap
+    word-wrap: break-word
+
+.medex-mednote-paragrap
+    width: 100%
+    margin-bottom: 14pt
+
+.medex-mednote-doctor_check-areatext
+    resize: none
+    width: 100%
